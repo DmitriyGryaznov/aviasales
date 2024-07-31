@@ -1,0 +1,9 @@
+.list {
+  width: 100%;
+}
+
+.more_button {
+  font-size: 12px;
+  height: 50px;
+  text-transform: uppercase;
+}

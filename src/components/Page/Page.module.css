@@ -1,0 +1,42 @@
+.wrapper {
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+}
+
+.main {
+  display: block;
+}
+
+.filters {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .filters {
+    width: 235px;
+  }
+
+  .list {
+    width: 500px;
+  }
+}

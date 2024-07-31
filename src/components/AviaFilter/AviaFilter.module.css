@@ -1,0 +1,15 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  padding: 20px;
+}
+
+.filter__title {
+  text-transform: uppercase;
+  line-height: 12px;
+  font-size: 12px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
